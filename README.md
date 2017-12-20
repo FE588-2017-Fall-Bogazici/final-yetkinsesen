@@ -28,15 +28,14 @@ darth.add_dependency(anakin)
 _all.add_dependency(luke, hansolo, leia, yoda, padme, anakin, obi, darth)
 _all.build()
 # code should print: 
-Han Solo 
-Padme Amidala 
-Anakin Skywalker 
-Leia
-Yoda 
-Luke 
-Obi-Wan 
-Darth Vader
-# (can print with newlines in between modules)
+# Han Solo 
+# Padme Amidala 
+# Anakin Skywalker 
+# Leia
+# Yoda 
+# Luke 
+# Obi-Wan 
+# Darth Vader
 
 ~~~
 from https://www.ynonperek.com/2017/09/21/python-exercises/
